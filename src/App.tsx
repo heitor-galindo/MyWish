@@ -1,6 +1,6 @@
 import "./App.css";
 import { SiteHeader } from "./components/site-header";
-import GiftForm from "./pages/gift-forms";
+import GiftForm from "./pages/gift-form";
 import { ThemeProvider } from "@/components/theme-provider";
 
 function App() {

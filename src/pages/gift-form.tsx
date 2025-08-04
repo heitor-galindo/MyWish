@@ -63,6 +63,7 @@ export default function GiftForm() {
 
   return (
     <div>
+
       <h1 className="text-2xl font-bold text-center mb-6">
         Eu queria muito ganhar um... pônei mágico! 🦄
       </h1>
@@ -70,11 +71,10 @@ export default function GiftForm() {
         Você não tem bola de cristal, e nem os seus amigos. Ajude o coleguinha a
         saber o que você quer de presente!
       </p>
-
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="space-y-8 max-w-3xl mx-auto py-10 text-left"
+          className="space-y-5 max-w-3xl mx-auto py-10 text-left"
         >
             <div className="col-span-6">
               <FormField
